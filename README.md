@@ -59,7 +59,9 @@ src/
 data/
 └── A-n32-k5.lcvrp
 
-How It Works
+---
+
+## How It Works
 
 1. The program loads an .lcvrp instance file.
 2. The evaluator validates the instance and prepares distance data.
@@ -72,7 +74,9 @@ How It Works
     fitness evaluation
 6. The best individual found during the run is printed at the end.
 
-Input Parameters
+---
+
+## Input Parameters
 
 The program accepts the following command-line arguments:
 <instance_path> <num_groups> [population_size] [crossover_probability] [mutation_probability] [iterations] [seed]
@@ -90,26 +94,23 @@ Najlepszy osobnik (fitness = 1/(1+cost)):
   fitness = ...
   cost    = ...
 
-Technologies
+---
+
+## Technologies
 
 C++
-
 Visual Studio
-
 Standard C++ library
-
 Learning Objectives
 
-This project demonstrates:
+---
+
+## This project demonstrates:
 
 object-oriented design in C++
-
 file parsing and structured data loading
-
 route cost evaluation under constraints
-
 implementation of a genetic algorithm
-
 population-based optimization
 
 use of references to reduce unnecessary copying
